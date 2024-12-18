@@ -21,10 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import meta from "./company/st3.avif";
+import shopify from "./company/st2.avif";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import tesla from "./company/st3.avif";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";

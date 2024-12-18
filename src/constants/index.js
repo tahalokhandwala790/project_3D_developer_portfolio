@@ -80,10 +80,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,10 +89,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  
   {
     name: "Three JS",
     icon: threejs,
@@ -104,77 +98,58 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Mastering the Basics",
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: "#fbc3bc",
+    date: "Junior Web Developer -- 2022 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+        "Mastered HTML: Structured and organized web content effectively.",
+        "Expert in CSS: Styled and enhanced the appearance of web pages.",
+        "Proficient in JavaScript: Added interactivity and dynamic features to applications.",
+        "Backend Basics: Gained understanding of handling messages and contact forms.",
+        "Seamless Data Delivery: Ensured efficient data handling between front-end and back-end.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+},
+{
+    title: "Advanced Front-End Development",
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: "#b7e4c7",
+    date: "Front-End Developer -- 2023 - 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Transitioned to React: Advanced front-end development skills.",
+        "Reusable Components: Learned to build efficient, reusable components.",
+        "State Management: Mastered efficient state management.",
+        "React Router: Implemented smooth navigation.",
+        "Enhanced UI Skills: Created dynamic and interactive user interfaces.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+},
+{
+    title: "Creating Stunning 3D and Animated Websites",
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: "#a2d2ff",
+    date: "Pro Front-End Developer -- 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+        "Explored Three.jsand Advanced Animations: Delved into the world of 3D graphics and animations.",
+        " Mastered 3D Models with React Three Fiber: Created and integrated 3D models seamlessly with React.",
+        "Enhanced Visual Appeal: Crafted visually captivating and user-friendly websites.",
+        "Utilized GSAP: Implemented complex animations to make websites stand out.",
+        "Achieved Stunning Visuals and Interactivity: Elevated the overall user experience with advanced animations and effects.",
     ],
-  },
+},
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
+      "The team at Tiza Webcrafts did an exceptional job building our company's new website. They were highly responsive, understood our requirements perfectly, and delivered a visually stunning and user-friendly platform. Highly recommended for anyone looking for top-notch web development services.",
+    name: "Neha Sharma",
+    designation: "Software Engineer",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
@@ -219,30 +194,30 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Tazza - Fresh Vegetable E-commerce Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Tazza is a fresh and vibrant e-commerce website designed to offer users a seamless and engaging online shopping experience. The website features a clean and intuitive interface, enriched with interactive elements and animations, showcasing Tazzas wide range of fresh vegetables",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "js",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://tahalokhandwala790.github.io/Tazza/",
   },
   {
-    name: "Trip Guide",
+    name: "Pesto - Dynamic Restaurant Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "'Pesto' is a dynamic restaurant website designed to provide users with an engaging online experience. The site features a vibrant interface enriched with animations and interactive elements, showcasing Pestos culinary delights and dining experiences.",
     tags: [
       {
         name: "nextjs",
@@ -258,7 +233,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://tahalokhandwala790.github.io/pesto-webapp/",
   },
 ];
 
